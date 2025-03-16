@@ -44,10 +44,10 @@ Green lines are covered in the tests.
 ## Maintaining automated tests
 
 Automated tests are run as part of the `verify` phase.
-Run automated tests with multiple Java virtual machines in a development environment with the command:
+Run automated tests in a development environment with the command:
 
 ```
-$ mvn clean -DforkCount=1C verify
+$ mvn clean verify
 ```
 
 ## Report an Issue
