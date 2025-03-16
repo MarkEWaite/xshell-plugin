@@ -1,9 +1,9 @@
 # Contributing to the plugin
 
-Plugin source code is hosted on [GitHub](https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plugin).
+Plugin source code is hosted on [GitHub](https://github.com/jenkinsci/xshell-plugin).
 New feature proposals and bug fix proposals should be submitted as
 [GitHub pull requests](https://help.github.com/articles/creating-a-pull-request).
-Your pull request will be evaluated by the [Jenkins job](https://ci.jenkins.io/job/Plugins/job/apache-httpcomponents-client-4-api-plugin/).
+Your pull request will be evaluated by the [Jenkins job](https://ci.jenkins.io/job/Plugins/job/xshell-plugin/).
 
 Before submitting your change, please assure that you've added tests which verify your change.
 
