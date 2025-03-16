@@ -1,9 +1,9 @@
 # Contributing to the plugin
 
-Plugin source code is hosted on [GitHub](https://github.com/jenkinsci/apache-httpcomponents-client-4-api-plugin).
+Plugin source code is hosted on [GitHub](https://github.com/jenkinsci/xshell-plugin).
 New feature proposals and bug fix proposals should be submitted as
 [GitHub pull requests](https://help.github.com/articles/creating-a-pull-request).
-Your pull request will be evaluated by the [Jenkins job](https://ci.jenkins.io/job/Plugins/job/apache-httpcomponents-client-4-api-plugin/).
+Your pull request will be evaluated by the [Jenkins job](https://ci.jenkins.io/job/Plugins/job/xshell-plugin/).
 
 Before submitting your change, please assure that you've added tests which verify your change.
 
@@ -38,15 +38,16 @@ Click on them to find a list of class names.
 
 The lines of the code will be covered in three different colors, red, green, and orange.
 Red lines are not covered in the tests.
-Green lines are covered with tests.
+Orange lines are partially covered in the tests, with some branches not covered.
+Green lines are covered in the tests.
 
 ## Maintaining automated tests
 
 Automated tests are run as part of the `verify` phase.
-Run automated tests with multiple Java virtual machines in a development environment with the command:
+Run automated tests in a development environment with the command:
 
 ```
-$ mvn clean -DforkCount=1C verify
+$ mvn clean verify
 ```
 
 ## Report an Issue
